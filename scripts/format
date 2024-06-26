@@ -1,0 +1,6 @@
+#! /bin/bash
+
+black ./main.py
+black ./tests/
+black ./neuroshift/
+black ./conftest.py

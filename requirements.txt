@@ -1,0 +1,13 @@
+-f https://download.pytorch.org/whl/cu118
+torch==2.1.0
+onnx2pytorch==0.4.1
+pandas==2.1.4
+plotly==5.18.0
+streamlit==1.30.0
+st-clickable-images==0.0.3
+st-pages==0.4.5
+streamlit-lightweight-charts==0.7.20
+streamlit-js-eval==0.1.5
+streamlit-modal==0.1.0
+toml==0.10.2
+pandas==2.1.4

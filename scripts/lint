@@ -1,0 +1,2 @@
+#! /bin/bash
+pylama -o pyproject.toml

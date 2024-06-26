@@ -1,0 +1,3 @@
+[neuroshift.paths]
+dataset = "tests/save/datasets/settings/"
+model = "tests/save/models/settings/"

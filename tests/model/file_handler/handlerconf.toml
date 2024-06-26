@@ -1,0 +1,12 @@
+[neuroshift.paths]
+dataset = "tests/save/datasets/handler/"
+model = "tests/save/models/handler/"
+
+[neuroshift.settings]
+dataset = "datasets.json"
+model = "models.json"
+
+[neuroshift.filetypes]
+upload = ["ONNX", "ZIP", "JSON"]
+model = [".onnx"]
+images = [".jpg", ".jpeg", ".png"]

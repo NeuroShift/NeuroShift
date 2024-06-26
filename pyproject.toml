@@ -1,0 +1,29 @@
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::UserWarning",
+]
+testpaths = ["tests/"]
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "conftest.py"
+]
+
+[tool.black]
+line-length = 79
+
+[tool.pylama]
+skip = "*env/*,*.tox/*,*tests/*,conftest.py"
+linters ="pylint,mypy"
+
+[tool.pylama.linter.pylint]
+max_line_length = 79
+# there is a bug with pylint for the session if it was not a false positive
+# mypy would catch it too
+disable = "E1137,E1136,E1135,R0902,R0903,R0904,R0913,R0916"
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_defs = true
+warn_incomplete_stub = true

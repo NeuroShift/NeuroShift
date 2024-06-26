@@ -1,0 +1,20 @@
+[neuroshift]
+max_retries = 3
+batch_size = 32
+workers = 3
+analytic_names = ["key"] # the whitelist for the save name of the analytics
+max_width = 500
+
+[neuroshift.paths]
+analytics = "data/analytics/"
+dataset = "data/datasets/"
+model = "data/models/"
+
+[neuroshift.settings]
+dataset = "datasets.json"
+model = "models.json"
+
+[neuroshift.filetypes]
+upload = ["ONNX", "ZIP", "JSON"]
+model = [".onnx"]
+images = [".jpg", ".jpeg", ".png"]

@@ -1,0 +1,12 @@
+[
+    {
+        "file_name": "mnist",
+        "name": "MNIST",
+        "description": "MNIST dataset with hand-written numbers from 0 to 9"
+    },
+    {
+        "file_name": "cifar10",
+        "name": "CIFAR10",
+        "description": "CIFAR10 dataset with colourful images"
+    }
+]
