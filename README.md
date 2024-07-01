@@ -88,6 +88,3 @@ The linters (`pylama`):
 ```console
 pi@rational:~/<path>$ ./scripts/lint
 ```
-
-If there are any error messages from the linter they should be addressed, as the CI will not accept them.
-As such if the linter is not happy, all messages will be considered as functional errors.
